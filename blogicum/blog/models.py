@@ -1,3 +1,1 @@
-from django.db import models
-
-# Create your models here.
+# Models are not used in this sprint.

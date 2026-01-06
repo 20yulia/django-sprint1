@@ -1,3 +1,1 @@
-from django.test import TestCase
-
-# Create your tests here.
+# Local app tests are not used. Use pytest from repository tests/.
