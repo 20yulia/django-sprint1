@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Категория</title>
-  </head>
-  <body>
-    <p>Публикации в категории {{ category_slug }}</p>
-  </body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Публикации в категории {{ category_slug }}{% endblock %}
+
+{% block content %}
+<h1>Публикации в категории <span class="text-muted">{{ category_slug }}</span></h1>
+{% endblock %}
