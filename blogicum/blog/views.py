@@ -48,7 +48,7 @@ posts = [
 
 def index(request):
     template = "blog/index.html"
-    context = {"posts": posts}
+    context = {"posts": posts[::-1]}  # важно: инвертированный список (2, 1, 0)
     return render(request, template, context)
 
 
